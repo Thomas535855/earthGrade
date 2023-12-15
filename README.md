@@ -1,4 +1,3 @@
-Een README-bestand is een belangrijk onderdeel van softwareprojecten. Het biedt nuttige informatie over het project, hoe het te gebruiken, installeren, configureren, en meer. Hier is een voorbeeld van hoe je een README-bestand zou kunnen structureren voor een algemeen softwareproject:
 
 ---
 
@@ -48,5 +47,3 @@ Instructies voor anderen die willen bijdragen aan jouw project. Dit kan informat
 Informatie over de licentie van je project. Hier kun je de gebruikte licentie vermelden en eventueel verwijzen naar het LICENTIE-bestand voor meer details.
 
 ---
-
-Dit is een basisstructuur voor een README-bestand. Je kunt de secties aanpassen en uitbreiden op basis van de behoeften van jouw project. Zorg ervoor dat de informatie duidelijk en beknopt is, zodat anderen gemakkelijk met jouw project aan de slag kunnen.
