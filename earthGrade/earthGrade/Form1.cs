@@ -6,25 +6,6 @@ namespace earthGrade
         {
             InitializeComponent();
         }
-        
-        public class user
-        {
-            private int userid;
-            private string password;
-            private string email;
-
-            public user(int userid, string password, string email)
-            {
-                this.userid = userid++;
-                this.password = password;
-                this.email = email;
-            }
-
-            static void Main(string[] args)
-            {
-                
-            }
-        }
 
         public class product
         {
@@ -40,17 +21,25 @@ namespace earthGrade
                 var form2 = new Form2();
                 this.Hide();
                 form2.Show();
-            } 
+            }
             else
             {
                 MessageBox.Show("Email or password incorrect");
             }
 
+
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
+            
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var form3 = new Form3();
+            this.Hide();
+            form3.Show();
         }
     }
 }

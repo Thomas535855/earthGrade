@@ -35,6 +35,7 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -66,7 +67,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(120, 12);
+            pictureBox1.Location = new Point(130, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(208, 205);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -96,12 +97,23 @@
             label2.TabIndex = 5;
             label2.Text = "Password:";
             // 
+            // button1
+            // 
+            button1.Location = new Point(155, 483);
+            button1.Name = "button1";
+            button1.Size = new Size(148, 43);
+            button1.TabIndex = 6;
+            button1.Text = "Create account";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(63, 126, 68);
             ClientSize = new Size(462, 753);
+            Controls.Add(button1);
             Controls.Add(pictureBox1);
             Controls.Add(loginButton);
             Controls.Add(passwordBox);
@@ -124,5 +136,6 @@
         private PictureBox pictureBox1;
         private Label label1;
         private Label label2;
+        private Button button1;
     }
 }
