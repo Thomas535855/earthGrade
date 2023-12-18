@@ -56,23 +56,39 @@ namespace earthGrade
             }
 
         }
-        
-        int userid = 1;
+
+        int userid = 0;
 
         private void button1_Click(object sender, EventArgs e)
         {
-            userid++;
-            user test = new user(userid, createUsername.Text, createPassword.Text, createEmail.Text);
-            testLabel.Text = userid.ToString();
+            if (createEmail.Text.Length > 0
+                && createUsername.Text.Length > 0
+                && createPassword.Text.Length > 3)
+            {
+                userid++;
+                user test = new user(userid, createUsername.Text, createPassword.Text, createEmail.Text);
+            }
+            else if (createPassword.Text.Length <= 3)
+            {
+                MessageBox.Show("Password must be longer than 3 characters");
+            }
+            else
+            {
+                MessageBox.Show("Error");
+            }
+
         }
-        
-        
 
         private void button2_Click(object sender, EventArgs e)
         {
             var form1 = new Form1();
             this.Hide();
             form1.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

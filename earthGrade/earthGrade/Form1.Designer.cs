@@ -56,12 +56,16 @@
             // 
             // loginButton
             // 
+            loginButton.BackColor = Color.DarkGray;
+            loginButton.FlatAppearance.BorderSize = 0;
+            loginButton.FlatStyle = FlatStyle.Flat;
+            loginButton.Font = new Font("Gadugi", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
             loginButton.Location = new Point(143, 383);
             loginButton.Name = "loginButton";
             loginButton.Size = new Size(170, 65);
             loginButton.TabIndex = 2;
             loginButton.Text = "Login";
-            loginButton.UseVisualStyleBackColor = true;
+            loginButton.UseVisualStyleBackColor = false;
             loginButton.Click += loginButton_Click;
             // 
             // pictureBox1
@@ -99,12 +103,16 @@
             // 
             // button1
             // 
+            button1.BackColor = Color.DarkGray;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Gadugi", 12F, FontStyle.Regular, GraphicsUnit.Point);
             button1.Location = new Point(155, 483);
             button1.Name = "button1";
             button1.Size = new Size(148, 43);
             button1.TabIndex = 6;
             button1.Text = "Create account";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // Form1
