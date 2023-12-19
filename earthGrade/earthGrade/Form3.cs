@@ -67,6 +67,10 @@ namespace earthGrade
             {
                 userid++;
                 user test = new user(userid, createUsername.Text, createPassword.Text, createEmail.Text);
+                createEmail.Text = "";
+                createUsername.Text = "";
+                createPassword.Text = "";
+                MessageBox.Show("Account succesfully created! userid: " + userid);
             }
             else if (createPassword.Text.Length <= 3)
             {
