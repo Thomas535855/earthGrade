@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Data.SqlClient;
-using System.Drawing.Text;
+﻿using System.Data.SqlClient;
 
 namespace earthGrade
 {
@@ -16,36 +6,12 @@ namespace earthGrade
     {
         private SqlConnection conn = new SqlConnection("server=192.168.134.19;database=EarthGrade;User Id=sqluser;Password=Patat2024");
 
-        //static void Main(string[] args)
-        //{
-        //    string insertQuery = "INSERT INTO dbo.Studeren ([Studeer tijd], Pauze, Sessies) VALUES (@minutes, @studyBreak, @session)";
-
-        //    using (SqlCommand command = new SqlCommand(insertQuery, conn))
-        //    {
-        //        command.Parameters.AddWithValue("@minutes", minutes); // Voert het variable in het kolommen
-
-        //        int rowsAffected = command.ExecuteNonQuery();
-
-        //        if (rowsAffected > 0)
-        //        {
-        //            Console.WriteLine("Data inserted successfully!");
-        //        }
-        //        else
-        //        {
-        //            Console.WriteLine("Failed to insert data.");
-        //        }
-        //    }
-        //}
-        public Form3()
-        {
-            InitializeComponent();
-        }
         public class user
         {
-            private int userid;
-            private string gebruikersnaam;
-            private string password;
-            private string email;
+            public int userid;
+            public string gebruikersnaam;
+            public string password;
+            public string email;
 
             public user(int userid, string gebruikersnaam, string password, string email)
             {
@@ -67,10 +33,32 @@ namespace earthGrade
             {
                 userid++;
                 user test = new user(userid, createUsername.Text, createPassword.Text, createEmail.Text);
+
+                // Open the database connection
+                conn.Open();
+
+                // SQL query to insert user data into the 'users' table assuming the table columns are 'userid', 'gebruikersnaam', 'password', 'email'
+                string insertQuery = "INSERT INTO users (userid, gebruikersnaam, password, email) VALUES (@UserId, @Username, @Password, @Email)";
+
+                using (SqlCommand cmd = new SqlCommand(insertQuery, conn))
+                {
+                    // Add parameters to the SQL query
+                    cmd.Parameters.AddWithValue("@UserId", test.userid);
+                    cmd.Parameters.AddWithValue("@Username", test.gebruikersnaam);
+                    cmd.Parameters.AddWithValue("@Password", test.password);
+                    cmd.Parameters.AddWithValue("@Email", test.email);
+
+                    // Execute the SQL command
+                    cmd.ExecuteNonQuery();
+                }
+
+                // Close the database connection
+                conn.Close();
+
                 createEmail.Text = "";
                 createUsername.Text = "";
                 createPassword.Text = "";
-                MessageBox.Show("Account succesfully created! userid: " + userid);
+                MessageBox.Show("Account successfully created! userid: " + userid);
             }
             else if (createPassword.Text.Length <= 3)
             {
@@ -80,7 +68,6 @@ namespace earthGrade
             {
                 MessageBox.Show("Error");
             }
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -91,6 +78,16 @@ namespace earthGrade
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
         {
 
         }

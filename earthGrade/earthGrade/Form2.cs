@@ -18,12 +18,22 @@ namespace earthGrade
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {              
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
             Form4 form4 = new Form4();
             this.Hide();
-            form4.Show();   
-            
+            form4.Show();
+        }
 
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            this.Hide();
+            form1.Show();
         }
     }
 }
