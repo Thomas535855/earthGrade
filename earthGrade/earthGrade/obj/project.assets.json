@@ -2296,11 +2296,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Fontys School\\Proftaak talk to me\\software verdieping\\earthGrade\\earthGrade\\earthGrade.csproj",
+      "projectUniqueName": "D:\\Fontys School\\Proftaak talk to me\\software verdieping\\earthGrade2\\earthGrade-main\\earthGrade\\earthGrade\\earthGrade.csproj",
       "projectName": "earthGrade",
-      "projectPath": "D:\\Fontys School\\Proftaak talk to me\\software verdieping\\earthGrade\\earthGrade\\earthGrade.csproj",
+      "projectPath": "D:\\Fontys School\\Proftaak talk to me\\software verdieping\\earthGrade2\\earthGrade-main\\earthGrade\\earthGrade\\earthGrade.csproj",
       "packagesPath": "C:\\Users\\Thomas (School)\\.nuget\\packages\\",
-      "outputPath": "D:\\Fontys School\\Proftaak talk to me\\software verdieping\\earthGrade\\earthGrade\\obj\\",
+      "outputPath": "D:\\Fontys School\\Proftaak talk to me\\software verdieping\\earthGrade2\\earthGrade-main\\earthGrade\\earthGrade\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

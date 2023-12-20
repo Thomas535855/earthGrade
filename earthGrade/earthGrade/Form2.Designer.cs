@@ -31,15 +31,14 @@
             panel1 = new Panel();
             button2 = new Button();
             label1 = new Label();
-            button1 = new Button();
-            logoutButton = new Button();
+            scanButton = new Button();
+            button3 = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = SystemColors.ControlDarkDark;
-            panel1.Controls.Add(logoutButton);
             panel1.Controls.Add(button2);
             panel1.Location = new Point(0, -3);
             panel1.Name = "panel1";
@@ -49,51 +48,51 @@
             // button2
             // 
             button2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(320, 16);
+            button2.Location = new Point(318, 19);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
             button2.Size = new Size(130, 43);
-            button2.TabIndex = 3;
+            button2.TabIndex = 0;
             button2.Text = "My Profile";
             button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click_1;
+            button2.Click += button2_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(143, 102);
+            label1.Location = new Point(143, 101);
             label1.Name = "label1";
             label1.Size = new Size(167, 20);
             label1.TabIndex = 1;
             label1.Text = "Welcome to earthGrade";
             // 
-            // button1
+            // scanButton
             // 
-            button1.Location = new Point(99, 177);
-            button1.Name = "button1";
-            button1.Size = new Size(259, 128);
-            button1.TabIndex = 2;
-            button1.Text = "Scan a product";
-            button1.UseVisualStyleBackColor = true;
+            scanButton.Location = new Point(99, 177);
+            scanButton.Name = "scanButton";
+            scanButton.Size = new Size(259, 128);
+            scanButton.TabIndex = 2;
+            scanButton.Text = "Scan a product";
+            scanButton.UseVisualStyleBackColor = true;
+            scanButton.Click += button1_Click;
             // 
-            // logoutButton
+            // button3
             // 
-            logoutButton.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            logoutButton.Location = new Point(12, 16);
-            logoutButton.Margin = new Padding(3, 4, 3, 4);
-            logoutButton.Name = "logoutButton";
-            logoutButton.Size = new Size(87, 43);
-            logoutButton.TabIndex = 4;
-            logoutButton.Text = "Logout";
-            logoutButton.UseVisualStyleBackColor = true;
-            logoutButton.Click += logoutButton_Click;
+            button3.Location = new Point(99, 401);
+            button3.Name = "button3";
+            button3.Size = new Size(259, 102);
+            button3.TabIndex = 3;
+            button3.Text = "All products";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(462, 753);
-            Controls.Add(button1);
+            Controls.Add(button3);
+            Controls.Add(scanButton);
             Controls.Add(label1);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
@@ -108,8 +107,8 @@
 
         private Panel panel1;
         private Label label1;
-        private Button button1;
+        private Button scanButton;
         private Button button2;
-        private Button logoutButton;
+        private Button button3;
     }
 }

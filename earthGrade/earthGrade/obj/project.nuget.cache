@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "omJf0Bw4CyTEw0JFSFX+nCzoAH1pl/rxk+85zHeDT4/71IcWkwtADq7HS1ylH7oZDCu/KLn2zmgki7xRFl1g2A==",
+  "dgSpecHash": "rFyFB8JbpI00JuXlvNipoeUj4AwoXZ9YZTOevxgV8O67UL/8wsdivyYHC1j9nVUs4so26xPfxNgQ3Sl7JMNUXg==",
   "success": true,
-  "projectFilePath": "D:\\Fontys School\\Proftaak talk to me\\software verdieping\\earthGrade\\earthGrade\\earthGrade.csproj",
+  "projectFilePath": "D:\\Fontys School\\Proftaak talk to me\\software verdieping\\earthGrade2\\earthGrade-main\\earthGrade\\earthGrade\\earthGrade.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thomas (School)\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Thomas (School)\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

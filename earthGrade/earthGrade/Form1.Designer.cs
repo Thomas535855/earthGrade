@@ -59,7 +59,7 @@
             loginButton.BackColor = Color.DarkGray;
             loginButton.FlatAppearance.BorderSize = 0;
             loginButton.FlatStyle = FlatStyle.Flat;
-            loginButton.Font = new Font("Gadugi", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            loginButton.Font = new Font("Gadugi", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             loginButton.Location = new Point(143, 383);
             loginButton.Name = "loginButton";
             loginButton.Size = new Size(170, 65);

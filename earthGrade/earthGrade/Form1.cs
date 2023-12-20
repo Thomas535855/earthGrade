@@ -7,12 +7,6 @@ namespace earthGrade
             InitializeComponent();
         }
 
-        public class product
-        {
-            private int productid;
-            private string name;
-            private int rating;
-        }
         private void loginButton_Click(object sender, EventArgs e)
         {
             string text = emailBox.Text;
@@ -26,7 +20,6 @@ namespace earthGrade
             {
                 MessageBox.Show("Email or password incorrect");
             }
-
 
         }
 
