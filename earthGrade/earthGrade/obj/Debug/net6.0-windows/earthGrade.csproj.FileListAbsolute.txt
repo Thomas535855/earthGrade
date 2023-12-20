@@ -3,7 +3,6 @@ D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\b
 D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\bin\Debug\net6.0-windows\earthGrade.runtimeconfig.json
 D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\bin\Debug\net6.0-windows\earthGrade.dll
 D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\bin\Debug\net6.0-windows\earthGrade.pdb
-D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\earthGrade.Form1.resources
 D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\earthGrade.csproj.GenerateResource.cache
 D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\earthGrade.GeneratedMSBuildEditorConfig.editorconfig
 D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\earthGrade.AssemblyInfoInputs.cache
@@ -15,8 +14,6 @@ D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\o
 D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\earthGrade.genruntimeconfig.cache
 D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\ref\earthGrade.dll
 D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\earthGrade.Properties.Resources.resources
-D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\earthGrade.Form2.resources
-D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\earthGrade.Form3.resources
 D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\earthGrade.csproj.AssemblyReference.cache
 D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\bin\Debug\net6.0-windows\Azure.Core.dll
 D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\bin\Debug\net6.0-windows\Azure.Identity.dll
@@ -49,4 +46,7 @@ D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\b
 D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\earthGrade.csproj.CopyComplete
-D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\earthGrade.Form4.resources
+D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\earthGrade.home.resources
+D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\earthGrade.login.resources
+D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\earthGrade.profiel.resources
+D:\Fontys School\Proftaak talk to me\software verdieping\earthGrade\earthGrade\obj\Debug\net6.0-windows\earthGrade.registreer.resources
