@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Drawing.Text;
+using earthGrade.Classes;
 
 namespace earthGrade
 {
@@ -21,7 +22,6 @@ namespace earthGrade
             InitializeComponent();
         }
 
-
         int userid = 0;
 
         private void button1_Click(object sender, EventArgs e)
@@ -31,11 +31,17 @@ namespace earthGrade
                 && createPassword.Text.Length > 3)
             {
                 userid++;
-                user test = new user(userid, createUsername.Text, createPassword.Text, createEmail.Text, 0);
+                User currentUser = new User(userid, createUsername.Text, createPassword.Text, createEmail.Text, 101);
+                
                 createEmail.Text = "";
                 createUsername.Text = "";
                 createPassword.Text = "";
+                
                 MessageBox.Show("Account succesfully created! userid: " + userid);
+
+                var form2 = new Form2();
+                this.Hide();
+                form2.Show();
             }
             else if (createPassword.Text.Length <= 3)
             {

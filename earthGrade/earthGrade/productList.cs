@@ -7,14 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using earthGrade.Classes;
 
 namespace earthGrade
 {
     public partial class productList : Form
     {
-
-
-
         public productList()
         {
             InitializeComponent();
@@ -24,6 +22,7 @@ namespace earthGrade
             productList.Add(new product(1, "Product 1", "Code1", 2.5));
             productList.Add(new product(2, "Product 2", "Code1", 4.5));
             productList.Add(new product(3, "Product 3", "Code1", 1.2));
+
 
             dataGridView1.DataSource = productList;
             dataGridView1.Columns["id"].Visible = false;

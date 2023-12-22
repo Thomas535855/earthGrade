@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,13 @@ namespace earthGrade
             this.Hide();
             form2.Show();
 
+        }
+
+        
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("You don't have enough points to redeem this reward!");
         }
     }
 }
